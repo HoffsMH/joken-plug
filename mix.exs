@@ -28,7 +28,8 @@ defmodule JokenPlug.MixProject do
   defp deps do
     [
       {:joken, "~> 1.5.0"},
-      {:poison, "~> 3.1.0"}
+      {:poison, "~> 3.1.0"},
+      {:ex_doc, ">= 0.18.4", only: :dev}
     ]
   end
 
